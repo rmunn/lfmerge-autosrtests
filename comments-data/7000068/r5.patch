@@ -1,9 +1,14 @@
 # HG changeset patch
 # User Robin Munn <robin_munn@sil.org>
-# Date 1505982605 -25200
-#      Thu Sep 21 15:30:05 2017 +0700
+# Date 1505986441 -25200
+#      Thu Sep 21 16:34:01 2017 +0700
 # Branch 7000068
-# Node ID 5c9e81d9a81695d38742a8fe9e32d6f731b11b6c
-# Parent  943df9c44c7867c2c93b296b0a86de129532f5da
-Empty commit
+# Node ID c9f4a7d22e7ff06ffb4a1d19fe4b97b154214f6e
+# Parent  561fd4785f3d970198364a0ec78cb8882810acdb
+Bump commit count
 
+diff -r 561fd4785f3d -r c9f4a7d22e7f empty-file.txt
+--- a/empty-file.txt	Thu Sep 21 16:33:56 2017 +0700
++++ /dev/null	Thu Jan 01 00:00:00 1970 +0000
+@@ -1,1 +0,0 @@
+-Delete this file if you find it

@@ -1,0 +1,148 @@
+# HG changeset patch
+# User rmunn
+# Date 1505987285 -25200
+#      Thu Sep 21 16:48:05 2017 +0700
+# Branch 7000068
+# Node ID b7af8c2abcb0de31b0a9e3ba8b9d25e8d2aa6acc
+# Parent  c9f4a7d22e7ff06ffb4a1d19fe4b97b154214f6e
+[FLEx Bridge: 2.1] sync Deleted B
+
+diff -r c9f4a7d22e7f -r b7af8c2abcb0 Linguistics/Lexicon/Lexicon_02.lexdb
+--- a/Linguistics/Lexicon/Lexicon_02.lexdb	Thu Sep 21 16:34:01 2017 +0700
++++ b/Linguistics/Lexicon/Lexicon_02.lexdb	Thu Sep 21 16:48:05 2017 +0700
+@@ -1,43 +1,2 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<Lexicon>
+-	<LexEntry
+-		guid="195dd361-8d89-4b3e-a860-fca3cba8216a">
+-		<DateCreated
+-			val="2017-9-19 9:48:32.63" />
+-		<DateModified
+-			val="2017-9-19 9:48:32.63" />
+-		<DoNotUseForParsing
+-			val="False" />
+-		<HomographNumber
+-			val="0" />
+-		<LexemeForm>
+-			<MoStemAllomorph
+-				guid="52d89cbe-1852-4eac-a114-46e479d6a24c">
+-				<Form>
+-					<AUni
+-						ws="fr">B</AUni>
+-				</Form>
+-				<IsAbstract
+-					val="False" />
+-				<MorphType>
+-					<objsur
+-						guid="d7f713e8-e8cf-11d3-9764-00c04f186933"
+-						t="r" />
+-				</MorphType>
+-			</MoStemAllomorph>
+-		</LexemeForm>
+-		<Senses>
+-			<ownseq
+-				class="LexSense"
+-				guid="70dff4b7-2469-47a0-9537-6c286d1c664d">
+-				<Definition>
+-					<AStr
+-						ws="en">
+-						<Run
+-							ws="en">B</Run>
+-					</AStr>
+-				</Definition>
+-			</ownseq>
+-		</Senses>
+-	</LexEntry>
+-</Lexicon>
+\ No newline at end of file
++<Lexicon />
+\ No newline at end of file
+diff -r c9f4a7d22e7f -r b7af8c2abcb0 WritingSystemStore/en.ldml
+--- a/WritingSystemStore/en.ldml	Thu Sep 21 16:34:01 2017 +0700
++++ b/WritingSystemStore/en.ldml	Thu Sep 21 16:48:05 2017 +0700
+@@ -4,12 +4,13 @@
+ 		<version
+ 			number="" />
+ 		<generation
+-			date="2017-09-13T03:51:41" />
++			date="2017-09-19T08:56:03" />
+ 		<language
+ 			type="en" />
+ 	</identity>
+ 	<collations />
+-	<special xmlns:palaso="urn://palaso.org/ldmlExtensions/v1">
++	<special
++		xmlns:palaso="urn://palaso.org/ldmlExtensions/v1">
+ 		<palaso:abbreviation
+ 			value="en" />
+ 		<palaso:defaultFontFamily
+@@ -21,7 +22,8 @@
+ 		<palaso:version
+ 			value="2" />
+ 	</special>
+-	<special xmlns:palaso2="urn://palaso.org/ldmlExtensions/v2">
++	<special
++		xmlns:palaso2="urn://palaso.org/ldmlExtensions/v2">
+ 		<palaso2:knownKeyboards>
+ 			<palaso2:keyboard
+ 				layout="US"
+@@ -35,7 +37,8 @@
+ 		<palaso2:version
+ 			value="2" />
+ 	</special>
+-	<special xmlns:fw="urn://fieldworks.sil.org/ldmlExtensions/v1">
++	<special
++		xmlns:fw="urn://fieldworks.sil.org/ldmlExtensions/v1">
+ 		<fw:graphiteEnabled
+ 			value="False" />
+ 		<fw:validChars
+diff -r c9f4a7d22e7f -r b7af8c2abcb0 WritingSystemStore/fr.ldml
+--- a/WritingSystemStore/fr.ldml	Thu Sep 21 16:34:01 2017 +0700
++++ b/WritingSystemStore/fr.ldml	Thu Sep 21 16:48:05 2017 +0700
+@@ -4,7 +4,7 @@
+ 		<version
+ 			number="" />
+ 		<generation
+-			date="2017-09-13T03:51:41" />
++			date="2017-09-19T08:56:03" />
+ 		<language
+ 			type="fr" />
+ 	</identity>
+@@ -14,13 +14,15 @@
+ 				<alias
+ 					source="" />
+ 			</base>
+-			<special xmlns:palaso="urn://palaso.org/ldmlExtensions/v1">
++			<special
++				xmlns:palaso="urn://palaso.org/ldmlExtensions/v1">
+ 				<palaso:sortRulesType
+ 					value="OtherLanguage" />
+ 			</special>
+ 		</collation>
+ 	</collations>
+-	<special xmlns:palaso="urn://palaso.org/ldmlExtensions/v1">
++	<special
++		xmlns:palaso="urn://palaso.org/ldmlExtensions/v1">
+ 		<palaso:abbreviation
+ 			value="Frn" />
+ 		<palaso:defaultFontFamily
+@@ -32,7 +34,8 @@
+ 		<palaso:version
+ 			value="2" />
+ 	</special>
+-	<special xmlns:palaso2="urn://palaso.org/ldmlExtensions/v2">
++	<special
++		xmlns:palaso2="urn://palaso.org/ldmlExtensions/v2">
+ 		<palaso2:knownKeyboards>
+ 			<palaso2:keyboard
+ 				layout="United States-International"
+@@ -98,7 +101,8 @@
+ 		<palaso2:version
+ 			value="2" />
+ 	</special>
+-	<special xmlns:fw="urn://fieldworks.sil.org/ldmlExtensions/v1">
++	<special
++		xmlns:fw="urn://fieldworks.sil.org/ldmlExtensions/v1">
+ 		<fw:graphiteEnabled
+ 			value="False" />
+ 		<fw:matchedPairs
