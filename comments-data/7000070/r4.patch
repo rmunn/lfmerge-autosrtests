@@ -1,58 +1,30 @@
 # HG changeset patch
 # User rmunn
-# Date 1506325256 -25200
-#      Mon Sep 25 14:40:56 2017 +0700
+# Date 1506327070 -25200
+#      Mon Sep 25 15:11:10 2017 +0700
 # Branch 7000070
-# Node ID 0f50cfdc71e274850f871dc3703b176f8c5bca76
+# Node ID a960ef7bab408dd1a1cc66f501f6bce62faa9192
 # Parent  d94f4e7daa9aac346b0ae5497b4244a3d509a3f6
-[FLEx Bridge: 2.1] sync Deleted B
+[FLEx Bridge: 2.1] sync Comment on A
 
-diff -r d94f4e7daa9a -r 0f50cfdc71e2 Linguistics/Lexicon/Lexicon_01.lexdb
---- a/Linguistics/Lexicon/Lexicon_01.lexdb	Mon Sep 25 13:45:42 2017 +0700
-+++ b/Linguistics/Lexicon/Lexicon_01.lexdb	Mon Sep 25 14:40:56 2017 +0700
-@@ -39,44 +39,4 @@
- 			<VariantEntryTypes />
- 		</LexDb>
- 	</header>
--	<LexEntry
--		guid="bc53c4b2-3c3f-4367-87d6-b04afe88aece">
--		<DateCreated
--			val="2017-9-25 6:45:17.942" />
--		<DateModified
--			val="2017-9-25 6:45:17.942" />
--		<DoNotUseForParsing
--			val="False" />
--		<HomographNumber
--			val="0" />
--		<LexemeForm>
--			<MoStemAllomorph
--				guid="ca64592a-42d0-4c4e-a09c-59fd8718408a">
--				<Form>
--					<AUni
--						ws="fr">B</AUni>
--				</Form>
--				<IsAbstract
--					val="False" />
--				<MorphType>
--					<objsur
--						guid="d7f713e8-e8cf-11d3-9764-00c04f186933"
--						t="r" />
--				</MorphType>
--			</MoStemAllomorph>
--		</LexemeForm>
--		<Senses>
--			<ownseq
--				class="LexSense"
--				guid="0dbad72c-2a9d-414a-9d70-01c4fc033224">
--				<Definition>
--					<AStr
--						ws="en">
--						<Run
--							ws="en">B</Run>
--					</AStr>
--				</Definition>
--			</ownseq>
--		</Senses>
--	</LexEntry>
- </Lexicon>
+diff -r d94f4e7daa9a -r a960ef7bab40 Lexicon.fwstub.ChorusNotes
+--- a/Lexicon.fwstub.ChorusNotes	Mon Sep 25 13:45:42 2017 +0700
++++ b/Lexicon.fwstub.ChorusNotes	Mon Sep 25 15:11:10 2017 +0700
+@@ -1,1 +1,14 @@
+-<notes version='0'/>
+\ No newline at end of file
++<?xml version="1.0" encoding="utf-8"?>
++<notes
++	version="0">
++	<annotation
++		class="question"
++		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=c5813c07-75bb-4946-a260-a431a8e7d2f1&amp;tag=&amp;id=c5813c07-75bb-4946-a260-a431a8e7d2f1&amp;label=A"
++		guid="dc5f29a5-e95d-4cc8-8aa4-347541b12b18">
++		<message
++			author="rmunn"
++			status=""
++			date="2017-09-25T15:10:59Z"
++			guid="e3702c53-4dba-4725-8fd8-104fe32a5a81">FW comment on word A</message>
++	</annotation>
++</notes>
 \ No newline at end of file

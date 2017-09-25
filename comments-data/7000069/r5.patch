@@ -1,59 +1,28 @@
 # HG changeset patch
 # User Language Forge
-# Date 1506325183 -25200
-#      Mon Sep 25 14:39:43 2017 +0700
+# Date 1506327007 -25200
+#      Mon Sep 25 15:10:07 2017 +0700
 # Branch 7000069
-# Node ID 5387dfc7aae6cbf0fb50100898b9ae20a023c759
-# Parent  b23cde1314e572d0b8ad8bc9dea365a909853c7f
-[LfMergeBridge: 2.5.1.0] Language Forge: 1 entry added
+# Node ID 85612f093fee74495c07af1e2ebeb988d354c1f0
+# Parent  ce592f6b32ceb0a2947641883b1905decbc71f3c
+[LfMergeBridge: 2.5.1.0] Language Forge S/R
 
-diff -r b23cde1314e5 -r 5387dfc7aae6 Linguistics/Lexicon/Lexicon_09.lexdb
---- a/Linguistics/Lexicon/Lexicon_09.lexdb	Mon Sep 25 14:38:17 2017 +0700
-+++ b/Linguistics/Lexicon/Lexicon_09.lexdb	Mon Sep 25 14:39:43 2017 +0700
-@@ -1,2 +1,43 @@
- <?xml version="1.0" encoding="utf-8"?>
--<Lexicon />
-\ No newline at end of file
-+<Lexicon>
-+	<LexEntry
-+		guid="bfcf9362-7626-46ac-abc3-b7566c4a0454">
-+		<DateCreated
-+			val="2017-9-25 6:42:9.714" />
-+		<DateModified
-+			val="2017-9-25 6:42:9.714" />
-+		<DoNotUseForParsing
-+			val="False" />
-+		<HomographNumber
-+			val="0" />
-+		<LexemeForm>
-+			<MoStemAllomorph
-+				guid="38edac62-71a0-48a7-8840-11989f642217">
-+				<Form>
-+					<AUni
-+						ws="fr">B</AUni>
-+				</Form>
-+				<IsAbstract
-+					val="False" />
-+				<MorphType>
-+					<objsur
-+						guid="d7f713e8-e8cf-11d3-9764-00c04f186933"
-+						t="r" />
-+				</MorphType>
-+			</MoStemAllomorph>
-+		</LexemeForm>
-+		<Senses>
-+			<ownseq
-+				class="LexSense"
-+				guid="96579fa2-e2cf-4025-808c-f96b49f52a81">
-+				<Definition>
-+					<AStr
-+						ws="en">
-+						<Run
-+							ws="en">B</Run>
-+					</AStr>
-+				</Definition>
-+			</ownseq>
-+		</Senses>
-+	</LexEntry>
-+</Lexicon>
+diff -r ce592f6b32ce -r 85612f093fee Lexicon.fwstub.ChorusNotes
+--- a/Lexicon.fwstub.ChorusNotes	Mon Sep 25 15:08:51 2017 +0700
++++ b/Lexicon.fwstub.ChorusNotes	Mon Sep 25 15:10:07 2017 +0700
+@@ -11,4 +11,14 @@
+ 			date="2017-09-25T15:08:38Z"
+ 			guid="bbb9075f-c2e1-4278-a2b0-0b945de07f04">FW comment about word A</message>
+ 	</annotation>
++	<annotation
++		class="note"
++		ref="silfw://localhost/link?app=flex&amp;database=current&amp;server=&amp;tool=default&amp;guid=bfcf9362-7626-46ac-abc3-b7566c4a0454&amp;tag=&amp;id=bfcf9362-7626-46ac-abc3-b7566c4a0454&amp;label=B"
++		guid="69cc7019-97c3-4031-9a35-e660b854792a">
++		<message
++			author="Language Forge"
++			status="open"
++			date="2017-09-25T15:09:57Z"
++			guid="8f0d49e4-0a39-45b3-925d-bed838f968e1">Comment on word B</message>
++	</annotation>
+ </notes>
 \ No newline at end of file
