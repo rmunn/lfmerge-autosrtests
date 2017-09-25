@@ -1,14 +1,14 @@
 # HG changeset patch
-# User Robin
-# Date 1505276435 -25200
-#      Wed Sep 13 11:20:35 2017 +0700
-# Node ID eb31b84e5ef1947948322c4606121959f28d0ae0
+# User rmunn
+# Date 1506304699 -25200
+#      Mon Sep 25 08:58:19 2017 +0700
+# Node ID e657121b7c7f8d81f2eca8b7a6a918fcd291fadc
 # Parent  0000000000000000000000000000000000000000
  Add FLExProject.CustomProperties
 
-diff -r 000000000000 -r eb31b84e5ef1 FLExProject.CustomProperties
+diff -r 000000000000 -r e657121b7c7f FLExProject.CustomProperties
 --- /dev/null	Thu Jan 01 00:00:00 1970 +0000
-+++ b/FLExProject.CustomProperties	Wed Sep 13 11:20:35 2017 +0700
++++ b/FLExProject.CustomProperties	Mon Sep 25 08:58:19 2017 +0700
 @@ -0,0 +1,2 @@
 +<?xml version="1.0" encoding="utf-8"?>
 +<AdditionalFields />
