@@ -1,0 +1,58 @@
+# HG changeset patch
+# User rmunn
+# Date 1506325256 -25200
+#      Mon Sep 25 14:40:56 2017 +0700
+# Branch 7000070
+# Node ID 0f50cfdc71e274850f871dc3703b176f8c5bca76
+# Parent  d94f4e7daa9aac346b0ae5497b4244a3d509a3f6
+[FLEx Bridge: 2.1] sync Deleted B
+
+diff -r d94f4e7daa9a -r 0f50cfdc71e2 Linguistics/Lexicon/Lexicon_01.lexdb
+--- a/Linguistics/Lexicon/Lexicon_01.lexdb	Mon Sep 25 13:45:42 2017 +0700
++++ b/Linguistics/Lexicon/Lexicon_01.lexdb	Mon Sep 25 14:40:56 2017 +0700
+@@ -39,44 +39,4 @@
+ 			<VariantEntryTypes />
+ 		</LexDb>
+ 	</header>
+-	<LexEntry
+-		guid="bc53c4b2-3c3f-4367-87d6-b04afe88aece">
+-		<DateCreated
+-			val="2017-9-25 6:45:17.942" />
+-		<DateModified
+-			val="2017-9-25 6:45:17.942" />
+-		<DoNotUseForParsing
+-			val="False" />
+-		<HomographNumber
+-			val="0" />
+-		<LexemeForm>
+-			<MoStemAllomorph
+-				guid="ca64592a-42d0-4c4e-a09c-59fd8718408a">
+-				<Form>
+-					<AUni
+-						ws="fr">B</AUni>
+-				</Form>
+-				<IsAbstract
+-					val="False" />
+-				<MorphType>
+-					<objsur
+-						guid="d7f713e8-e8cf-11d3-9764-00c04f186933"
+-						t="r" />
+-				</MorphType>
+-			</MoStemAllomorph>
+-		</LexemeForm>
+-		<Senses>
+-			<ownseq
+-				class="LexSense"
+-				guid="0dbad72c-2a9d-414a-9d70-01c4fc033224">
+-				<Definition>
+-					<AStr
+-						ws="en">
+-						<Run
+-							ws="en">B</Run>
+-					</AStr>
+-				</Definition>
+-			</ownseq>
+-		</Senses>
+-	</LexEntry>
+ </Lexicon>
+\ No newline at end of file

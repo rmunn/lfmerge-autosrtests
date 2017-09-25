@@ -1,0 +1,58 @@
+# HG changeset patch
+# User Language Forge
+# Date 1506325332 -25200
+#      Mon Sep 25 14:42:12 2017 +0700
+# Branch 7000070
+# Node ID e91c2fe4757012b0293e6e696db3c46cd81a4566
+# Parent  0f50cfdc71e274850f871dc3703b176f8c5bca76
+[LfMergeBridge: 2.5.1.0] Language Forge: 1 entry added
+
+diff -r 0f50cfdc71e2 -r e91c2fe47570 Linguistics/Lexicon/Lexicon_01.lexdb
+--- a/Linguistics/Lexicon/Lexicon_01.lexdb	Mon Sep 25 14:40:56 2017 +0700
++++ b/Linguistics/Lexicon/Lexicon_01.lexdb	Mon Sep 25 14:42:12 2017 +0700
+@@ -39,4 +39,44 @@
+ 			<VariantEntryTypes />
+ 		</LexDb>
+ 	</header>
++	<LexEntry
++		guid="bc53c4b2-3c3f-4367-87d6-b04afe88aece">
++		<DateCreated
++			val="2017-9-25 6:45:17.942" />
++		<DateModified
++			val="2017-9-25 6:45:17.942" />
++		<DoNotUseForParsing
++			val="False" />
++		<HomographNumber
++			val="0" />
++		<LexemeForm>
++			<MoStemAllomorph
++				guid="f43cea32-005a-4bc4-8c20-9fdcf59adb77">
++				<Form>
++					<AUni
++						ws="fr">B</AUni>
++				</Form>
++				<IsAbstract
++					val="False" />
++				<MorphType>
++					<objsur
++						guid="d7f713e8-e8cf-11d3-9764-00c04f186933"
++						t="r" />
++				</MorphType>
++			</MoStemAllomorph>
++		</LexemeForm>
++		<Senses>
++			<ownseq
++				class="LexSense"
++				guid="0dbad72c-2a9d-414a-9d70-01c4fc033224">
++				<Definition>
++					<AStr
++						ws="en">
++						<Run
++							ws="en">B</Run>
++					</AStr>
++				</Definition>
++			</ownseq>
++		</Senses>
++	</LexEntry>
+ </Lexicon>
+\ No newline at end of file
